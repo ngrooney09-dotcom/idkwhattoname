@@ -1,0 +1,12 @@
+site_name: My Docs
+
+theme:
+ name: material
+
+nav:
+
+ - Home: index.md
+ - w1: w1.md
+ - w2: w2.md
+ - w3 : w3.md
+ - w4 : w4.md
