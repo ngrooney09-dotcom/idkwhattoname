@@ -1,0 +1,5 @@
+site_name: Project 
+docs_dir: idkwhatthis
+
+theme:
+ name: material
