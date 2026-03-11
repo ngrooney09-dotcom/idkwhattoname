@@ -15,7 +15,13 @@ This documentation is intended for individuals who have no knowledge of GitHub o
 
 ## Prerequisite Knowledge
 
-This documentation requires you to be familiar with the Git version control system.
+This documentation requires you to know the basics of Git version control system such as:
+
+- git clone
+- git status
+- git add
+- git commit
+- git push
 
 ## Software Requirements
 
