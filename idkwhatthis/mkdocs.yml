@@ -1,5 +1,36 @@
-site_name: Project 
+site_name: GitHub User Guide 
 docs_dir: idkwhatthis
 
 theme:
  name: material
+ nav:
+  - Home: Home/home.md
+    - Intended Users: Home/intended_users.md
+    - Prerequisite Knowledge: Home/prerequisite_knowledge.md
+    - Software Requirements: Home/software_requirements.md
+    - Procedures Overview: Home/procedures_overview.md
+    - Typographical Conventions: Home/typographical_conventions.md
+    - Notes and warning Messages: Home/notes_and_warning_messages.md
+
+palette:
+  #Light mode
+  - scheme: default
+    primary: magenta
+    accent: magenta
+    toggle:
+      icon: material/weather-night
+      name: Dark mode
+
+  #Dark mode
+  - scheme: slate
+    primary: magenta
+    accent: magenta
+    toggle:
+      icon: material/weather-sunny
+      name: Light mode
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
