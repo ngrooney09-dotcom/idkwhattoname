@@ -1,16 +1,17 @@
 site_name: GitHub User Guide 
-docs_dir: idkwhatthis
+docs_dir: docs
 
 theme:
  name: material
- nav:
-  - Home: Home/home.md
-    - Intended Users: Home/intended_users.md
-    - Prerequisite Knowledge: Home/prerequisite_knowledge.md
-    - Software Requirements: Home/software_requirements.md
-    - Procedures Overview: Home/procedures_overview.md
-    - Typographical Conventions: Home/typographical_conventions.md
-    - Notes and warning Messages: Home/notes_and_warning_messages.md
+
+nav:
+  - Home: 
+    - Intended Users: home.md#intended users 
+    - Prerequisite Knowledge: home.md#prerequisite knowledge 
+    - Software Requirements: home.md#software requirements 
+    - Procedures Overview: home.md#procedures overview 
+    - Typographical Conventions: home.md#typographical conventions 
+    - Notes and warning Messages: home.md#notes and warning messages 
 
 palette:
   #Light mode
