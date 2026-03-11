@@ -13,7 +13,7 @@ and working with an exiting repo (someone else's code) in GitHub.
 
 ## Intended Users
 
-This documentation is intended for individuals who have no knowledge of Github or Version Control Systems.
+This documentation is intended for individuals who have no knowledge of GitHub or Version Control Systems.
 
 ## Prerequisite Knowledge
 
@@ -23,5 +23,5 @@ This documentation is intended for individuals who have no knowledge of Github o
 
 ## Typographical Conventions
 
-## Notes and warning Messages
+## Notes and Warning Messages
 

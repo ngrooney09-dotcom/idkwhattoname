@@ -3,6 +3,10 @@ docs_dir: docs
 
 theme:
   name: material
+  features:
+    - navigation.expand
+    - navigation.sections
+    - toc.integrate
   palette:
     # Light mode
     - scheme: default
@@ -21,13 +25,9 @@ theme:
         name: Light mode
 
 nav:
-  - Home:
-      - Intended Users: home.md#intended-users
-      - Prerequisite Knowledge: home.md#prerequisite-knowledge
-      - Software Requirements: home.md#software-requirements
-      - Procedures Overview: home.md#procedures-overview
-      - Typographical Conventions: home.md#typographical-conventions
-      - Notes and Warning Messages: home.md#notes-and-warning-messages
+  - Home: home.md
+  
+
 
 markdown_extensions:
   - admonition
