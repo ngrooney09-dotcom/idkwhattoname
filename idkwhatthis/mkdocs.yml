@@ -1,17 +1,16 @@
-site_name: GitHub User Guide 
+site_name: GitHub User Guide
 docs_dir: docs
 
 theme:
- name: material
-
-nav:
-  - Home: 
-    - Intended Users: home.md#intended users 
-    - Prerequisite Knowledge: home.md#prerequisite knowledge 
-    - Software Requirements: home.md#software requirements 
-    - Procedures Overview: home.md#procedures overview 
-    - Typographical Conventions: home.md#typographical conventions 
-    - Notes and warning Messages: home.md#notes and warning messages 
+  name: material
+  palette:
+    # Light mode
+    - scheme: default
+      primary: magenta
+      accent: magenta
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
 
     # Dark mode
     - scheme: slate
@@ -21,8 +20,19 @@ nav:
         icon: material/weather-sunny
         name: Light mode
 
+nav:
+  - Home:
+      - Intended Users: home.md#intended-users
+      - Prerequisite Knowledge: home.md#prerequisite-knowledge
+      - Software Requirements: home.md#software-requirements
+      - Procedures Overview: home.md#procedures-overview
+      - Typographical Conventions: home.md#typographical-conventions
+      - Notes and Warning Messages: home.md#notes-and-warning-messages
 
 markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
