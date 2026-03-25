@@ -1,3 +1,6 @@
+## Glossary table
+
+
 | Term | Definition |
 |------|------------|
 | Git | A distributed version control system used to track changes in code and collaborate with others. |
