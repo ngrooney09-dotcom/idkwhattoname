@@ -1,37 +1,124 @@
-# Connecting Gitbash to VS Code Terminal
+# Connecting Git Bash to VS Code Terminal
 
 ## Overview
 
-In this section we will learn how to connect Gitbash to our VS code terminal.
-This is because the documentation is uses the Gitbash terminal for demonstration. If you already have an understanding of using VS code and other terminals you can skip this part of the documentation.
+In this section, you will learn how to connect Git Bash to your VS Code terminal.
+
+This documentation uses Git Bash for demonstration. If you are already familiar with using other terminals in VS Code, you may skip this section.
+
+---
 
 ## Steps
 
-1. **Double Click** on Visual Studio Code to open it.
-2. **Click** on the three dots at the top left.
-![Three dots for terminal](assets/images/threeDots.png){ width="50%" }
-3. **Click** on the terminal option from the drop down. ![Terminal drop down](assets/images/terminal.png){ width="50%" }
-4. **Select** `New Terminal` from the side pop-up list. ![New Terminal pop up](assets/images/newTerminal.png){ width="50%" }
-5. A window should appear on the butom of the console - **navigate** to it.
-6. **Click** on the terminal option from the menu.![Terminal Window](assets/images/terminalWindow.png){ width="50%" }
-7. **Click** on the drop down arrow on the right next to the plus sign. ![Terminal Options](assets/images/downArrow.png){ width="50%" }
-8. **Check** if Git Bash is listed and **Select** it from the pop-up menu. ![Terminal Menu](assets/images/terminalMenu.png){ width="50%" }
-9. If it's not listed add it manually by following these steps:
+### 1 Open Visual Studio Code
+- Double click on **Visual Studio Code** to open it.
 
-10. Press Ctrl + Shift + P to open the Command Palette
-11. Search for: “Preferences: Open Settings (JSON)”
-12. Add the following configuration:
+---
 
-```"terminal.integrated.profiles.windows": {
+### 2 Open the Menu
+
+<p align="center">
+  <img src="assets/images/threeDots.png" width="50%">
+</p>
+
+- Click on the **three dots** at the top left.
+
+---
+
+### 3 Open Terminal Menu
+
+<p align="center">
+  <img src="assets/images/terminal.png" width="50%">
+</p>
+
+- Click on the **Terminal** option from the dropdown.
+
+---
+
+### 4 Create New Terminal
+
+<p align="center">
+  <img src="assets/images/newTerminal.png" width="50%">
+</p>
+
+- Select **New Terminal**.
+
+---
+
+### 5 Locate Terminal Panel
+- A terminal window should appear at the bottom of VS Code.
+
+---
+
+### 6 Open Terminal Options
+
+<p align="center">
+  <img src="assets/images/terminalWindow.png" width="50%">
+</p>
+
+- Click on the terminal menu.
+
+---
+
+### 7 Open Dropdown Options
+
+<p align="center">
+  <img src="assets/images/downArrow.png" width="50%">
+</p>
+
+- Click the dropdown arrow next to the **+** icon.
+
+---
+
+### 8️ Select Git Bash
+
+<p align="center">
+  <img src="assets/images/terminalMenu.png" width="50%">
+</p>
+
+- Check if **Git Bash** is listed and select it.
+
+---
+
+## If Git Bash is NOT Listed
+
+### 9️ Open Command Palette
+- Press `Ctrl + Shift + P`
+
+---
+
+### 10 Open Settings JSON
+- Search:
+  ```
+  Preferences: Open Settings (JSON)
+  ```
+
+---
+
+### 11 Add Configuration
+
+```json
+"terminal.integrated.profiles.windows": {
     "Git Bash": {
         "path": "C:\\Program Files\\Git\\bin\\bash.exe"
     }
 }
 ```
 
-## Set Git Bash as Default Terminal
+---
 
-1. After adding it, go back to Select Default Profile and choose Git Bash.
-2. Open a New Terminal Session
-3. Click New Terminal (+) again.
-4. You should now see Git Bash running inside VS Code.
+## ⭐ Set Git Bash as Default
+
+### 12 Select Default Profile
+- Go to **Select Default Profile**
+- Choose **Git Bash**
+
+---
+
+### 13 Open New Terminal
+- Click **New Terminal (+)** again
+
+---
+
+### 14 Done!
+- Git Bash should now run inside VS Code 🎉
