@@ -26,6 +26,12 @@ theme:
 
 nav:
   - Home: index.md
+  - gitbash: gitbash-vscode-terminal-connection.md
+  - new-git: new-github-repo.md
+  - pushing: pushing-existing-project.md
+  - working: working-with-existing-code-on-github.md
+  - glossary: glossary.md
+  - troubleshooting: troubleshooting.md
   
 
 
