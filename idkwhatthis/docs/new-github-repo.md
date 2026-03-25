@@ -7,20 +7,20 @@ This section guides users through the process of creating a new GitHub repositor
 ## Steps
 
 1. **Navigate** to [GitHub](https://github.com) and sign up.
-2. **Click** on the "+" icon in the top-right corner of the navigation bar.![New Repo](../assets/images/newRepo.png)
-3. **Select** “New repository.” ![Repo drop down](../assets/images/repoDropDown.png)
-4. **Click** on the down arrow to choose a Repository Owner from the drop down list ![Repo Owner](../assets/images/repoOwner.png)
+2. **Click** on the "+" icon in the top-right corner of the navigation bar.![New Repo](assets/images/newRepo.png)
+3. **Select** “New repository.” ![Repo drop down](assets/images/repoDropDown.png)
+4. **Click** on the down arrow to choose a Repository Owner from the drop down list ![Repo Owner](assets/images/repoOwner.png)
 5. **Type** a Repository Name
 6. **Add** a Description (Optional)
     - Provide a short summary explaining the purpose of the repository.
 
 ## Set Repository Visibility
 
-1. **Click** on "public" ![Repo Visibility](../assets/images/repoVisi.png)
+1. **Click** on "public" ![Repo Visibility](assets/images/repoVisi.png)
 2. **Choose** between:
     - Public (visible to everyone)
     - Private (only accessible to you or collaborators)
-    ![Visibility Options](../assets/images/visiOpps.png)
+    ![Visibility Options](assets/images/visiOpps.png)
 
 ## Initialize the Repository (Recommended)
 

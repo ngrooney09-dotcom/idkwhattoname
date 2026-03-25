@@ -9,13 +9,13 @@ This is because the documentation is uses the Gitbash terminal for demonstration
 
 1. **Double Click** on Visual Studio Code to open it.
 2. **Click** on the three dots at the top left.
-![Three dots for terminal](../assets/images/threeDots.png)
-3. **Click** on the terminal option from the drop down. ![Terminal drop down](../assets/images/terminal.png)
-4. **Select** `New Terminal` from the side pop-up list. ![New Terminal pop up](../assets/images/newTerminal.png)
+![Three dots for terminal](assets/images/threeDots.png)
+3. **Click** on the terminal option from the drop down. ![Terminal drop down](assets/images/terminal.png)
+4. **Select** `New Terminal` from the side pop-up list. ![New Terminal pop up](assets/images/newTerminal.png)
 5. A window should appear on the butom of the console - **navigate** to it.
-6. **Click** on the terminal option from the menu.![Terminal Window](../assets/images/terminalWindow.png)
-7. **Click** on the drop down arrow on the right next to the plus sign. ![Terminal Options](../assets/images/downArrow.png)
-8. **Check** if Git Bash is listed and **Select** it from the pop-up menu. ![Terminal Menu](../assets/images/terminalMenu.png)
+6. **Click** on the terminal option from the menu.![Terminal Window](assets/images/terminalWindow.png)
+7. **Click** on the drop down arrow on the right next to the plus sign. ![Terminal Options](assets/images/downArrow.png)
+8. **Check** if Git Bash is listed and **Select** it from the pop-up menu. ![Terminal Menu](assets/images/terminalMenu.png)
 9. If it's not listed add it manually by following these steps:
 
 10. Press Ctrl + Shift + P to open the Command Palette
