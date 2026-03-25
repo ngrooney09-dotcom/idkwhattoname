@@ -24,52 +24,52 @@ Before starting, ensure:
 ---
 ## Steps
 
-*** 1 Open Visual Studio Code ***
+1. Open Visual Studio Code 
 - Double click on **Visual Studio Code** to open it.
 
 ---
 
-*** 2 Open the Menu ***
+2. Open the Menu 
 - Click on the **three dots** at the top left.
 
 ![Three dots](assets/images/threeDots.png){ width=50% }
 
 ---
 
-*** 3 Open Terminal Menu ***
+3. Open Terminal Menu 
 - Click on the **Terminal** option from the dropdown.
 
 ![Terminal dropdown](assets/images/terminal.png){ width=50% }
 
 ---
 
-*** 4 Create New Terminal ***
+4. Create New Terminal 
 - Select **New Terminal**.
 
 ![New Terminal](assets/images/newTerminal.png){ width=50% }
 
 ---
 
-*** 5 Locate Terminal Panel ***
+5. Locate Terminal Panel 
 - A terminal window should appear at the bottom of VS Code.
 
 ---
 
-*** 6 Open Terminal Options ***
+6. Open Terminal Options 
 - Click on the terminal menu.
 
 ![Terminal Window](assets/images/terminalWindow.png){ width=50% }
 
 ---
 
-*** 7 Open Dropdown Options ***
+7. Open Dropdown Options 
 - Click the dropdown arrow next to the **+** icon.
 
 ![Dropdown arrow](assets/images/downArrow.png){ width=50% }
 
 ---
 
-*** 8 Select Git Bash ***
+8. Select Git Bash 
 - Check if **Git Bash** is listed and select it.
 
 ![Terminal menu](assets/images/terminalMenu.png){ width=50% }
@@ -78,25 +78,25 @@ Before starting, ensure:
 
 ## If Git Bash is NOT Listed
 
-*** 9️ Open Command Palette ***
+9️. Open Command Palette 
 - Press `Ctrl + Shift + P`
 
 ---
 
 ## ⭐ Set Git Bash as Default
 
-### 10 Select Default Profile
+10. Select Default Profile
 - Go to **Select Default Profile**
 - Choose **Git Bash**
 
 ---
 
-*** 11 Open New Terminal ***
+11. Open New Terminal 
 - Click **New Terminal (+)** again
 
 ---
 
-*** 12 Done! ***
+12. Done! 
 - Git Bash should now run inside VS Code 🎉
 
 Next thing to do is [Create new git](https://ngrooney09-dotcom.github.io/idkwhattoname/new-github-repo/)

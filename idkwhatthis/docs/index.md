@@ -9,19 +9,9 @@ In this documentation we will go over creating a new repository in GitHub, pushi
 
     :material-git: **Git** is a Version Control System used to track files and changes in your code over time.
 
-## Intended Users
+## Intended Users && Prerequisite Knowledge
 
-This documentation is intended for individuals who have no knowledge of GitHub or Version Control Systems.
-
-## Prerequisite Knowledge
-
-This documentation requires you to know the basics of Git version control system such as:
-
-- git clone
-- git status
-- git add
-- git commit
-- git push
+This documentation is intended for individuals who have a basic knowledge of GitHub such as `git clone`, `git status`, `git add`, `git commit`, `git push` etc or Version Control Systems such as Git.
 
 ## Software Requirements
 

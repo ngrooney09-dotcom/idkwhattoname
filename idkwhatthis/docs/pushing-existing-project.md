@@ -22,19 +22,19 @@ Before starting, make sure you have:
 
 ## Steps
 
-*** 1️ Open Your Project Folder ***
+1. Open Your Project Folder 
 - Navigate to your existing project directory on your computer.
 
 ---
 
-*** 2️ Open a Terminal ***
+2. Open a Terminal 
 Choose one of the following:
 - Right-click inside the folder → **Git Bash**
 - Open **VS Code** → Press `Ctrl + \`` to open the terminal
 
 ---
 
-*** 3️ Initialize Git ***
+3. Initialize Git 
 Start tracking your project:
 
 ```bash
@@ -43,7 +43,7 @@ git init
 
 ---
 
-*** 4️ Check Status *(Optional)* ***
+4. Check Status *(Optional)* 
 See which files are untracked:
 
 ```bash
@@ -52,7 +52,7 @@ git status
 
 ---
 
-*** 5️ Stage Files ***
+5. Stage Files 
 Add all files to staging:
 
 ```bash
@@ -61,7 +61,7 @@ git add .
 
 ---
 
-*** 6️ Commit Changes ***
+6. Commit Changes 
 Save your files with a message:
 
 ```bash
@@ -70,7 +70,7 @@ git commit -m "Initial commit"
 
 ---
 
-*** 7️ Create a GitHub Repository ***
+7. Create a GitHub Repository 
 - Go to GitHub
 - Click **New Repository**
 - ⚠️ Do **NOT** initialize with a README if your project already has files
@@ -80,7 +80,7 @@ git commit -m "Initial commit"
 
 ---
 
-*** 8️ Copy Repository URL ***
+8. Copy Repository URL 
 Example:
 
 ```
@@ -89,7 +89,7 @@ https://github.com/username/repo.git
 
 ---
 
-*** 9️ Add Remote Origin ***
+9. Add Remote Origin 
 Link your local project to GitHub:
 
 ```bash
@@ -98,7 +98,7 @@ git remote add origin https://github.com/username/repo.git
 
 ---
 
-***  10 Verify Remote *(Optional)* ***
+10. Verify Remote *(Optional)* 
 
 ```bash
 git remote -v
@@ -106,7 +106,7 @@ git remote -v
 
 ---
 
-***  11 Push to GitHub ***
+11. Push to GitHub 
 
 ```bash
 git push -u origin main
@@ -122,13 +122,13 @@ git push -u origin main
 
 ---
 
-***  12 Confirm Upload ***
+12. Confirm Upload 
 - Refresh your GitHub repository page
 - Ensure all files have been uploaded successfully
 
 ---
 
-***  Done! ***
+13.  Done! 
 Your project is now successfully pushed to GitHub and ready for collaboration 🚀
 
 
