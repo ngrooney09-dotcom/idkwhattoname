@@ -412,6 +412,50 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#method-1-cloning-a-repository-recommended" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 1: Cloning a Repository (Recommended)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#method-2-downloading-as-a-zip-file" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Method 2: Downloading as a ZIP File
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -493,10 +537,119 @@
 
 <h1 id="working-with-existing-code-on-github">Working with Existing Code on Github</h1>
 <h2 id="overview">Overview</h2>
-<p>In this section will demonstrate how to work with existing code on a Github repository. There are two ways we will do this:</p>
+<p>This section demonstrates how to work with existing code from a GitHub repository. There are two common methods:</p>
 <ol>
-<li>Cloning - easiest and efficient</li>
-<li>Downloading the zip file - tasking</li>
+<li>Cloning – the easiest and most efficient method</li>
+<li>Downloading a ZIP file – a simpler method without version control</li>
+</ol>
+<h2 id="method-1-cloning-a-repository-recommended">Method 1: Cloning a Repository (Recommended)</h2>
+<h2 id="steps">Steps</h2>
+<ol>
+<li><strong>Navigate</strong> to the desired repository on GitHub using your web browser.</li>
+<li>
+<p>Copy the Repository URL</p>
+<ul>
+<li><strong>Click</strong> the green “Code” button</li>
+<li><strong>Copy</strong> the HTTPS URL</li>
+</ul>
+</li>
+<li>
+<p>Open a Terminal</p>
+<ul>
+<li>Open Git Bash, or</li>
+<li>Open Visual Studio Code and launch the terminal</li>
+</ul>
+</li>
+<li>
+<p>Choose a Local Directory</p>
+<ul>
+<li>Navigate to the folder where you want to store the project:</li>
+</ul>
+<p><code>cd path/to/your/folder</code></p>
+</li>
+<li>
+<p>Clone the Repository</p>
+<ul>
+<li>Run the following command:</li>
+</ul>
+<p><code>git clone https://github.com/username/repo.git</code></p>
+</li>
+<li>
+<p>Navigate into the Project Folder</p>
+<p><code>cd repo-name</code></p>
+</li>
+<li>
+<p>Verify Files Were Downloaded</p>
+<ul>
+<li>Check that all project files are present in the directory.</li>
+</ul>
+</li>
+<li>
+<p>Check Repository Status (Optional)</p>
+<p><code>git status</code></p>
+</li>
+<li>
+<p>Open the Project in an Editor</p>
+<ul>
+<li>Open the folder in Visual Studio Code or your preferred IDE.</li>
+</ul>
+</li>
+<li>Start Working on the Code<ul>
+<li>Make changes, add features, or fix bugs as needed.</li>
+</ul>
+</li>
+<li>
+<p>Pull Latest Changes (Recommended)</p>
+<ul>
+<li>Before starting work, ensure your code is up to date:</li>
+</ul>
+<p><code>git pull</code></p>
+</li>
+</ol>
+<h2 id="method-2-downloading-as-a-zip-file">Method 2: Downloading as a ZIP File</h2>
+<h2 id="steps_1">Steps</h2>
+<ol>
+<li><strong>Navigate</strong> to the Repository<ul>
+<li><strong>Open</strong> the repository on GitHub.</li>
+</ul>
+</li>
+<li><strong>Click</strong> the “Code” Button<ul>
+<li>This will open a dropdown menu.</li>
+</ul>
+</li>
+<li><strong>Select</strong> “Download ZIP”<ul>
+<li>The repository will be downloaded as a compressed file.</li>
+</ul>
+</li>
+<li><strong>Locate</strong> the Downloaded File<ul>
+<li>Find the ZIP file in your Downloads folder.</li>
+</ul>
+</li>
+<li><strong>Extract</strong> the ZIP File<ul>
+<li><strong>Right-click</strong> the file</li>
+<li><strong>Select</strong> “Extract All”</li>
+</ul>
+</li>
+<li><strong>Open</strong> the Extracted Folder<ul>
+<li><strong>Navigate</strong> into the unzipped project directory.</li>
+</ul>
+</li>
+<li><strong>Open</strong> in an Editor<ul>
+<li><strong>Open</strong> the folder using Visual Studio Code or another IDE.</li>
+</ul>
+</li>
+<li><strong>Review</strong> the Project Files<ul>
+<li><strong>Ensure</strong> all files are accessible and intact.</li>
+</ul>
+</li>
+<li><strong>Make</strong> Changes Locally<ul>
+<li><strong>Edit</strong> the code as needed.</li>
+</ul>
+</li>
+<li><strong>Initialize</strong> Git (optional)<ul>
+<li>If you want version control:</li>
+</ul>
+</li>
 </ol>
 
 

@@ -385,6 +385,17 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#steps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steps
+      
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -493,7 +504,86 @@
 
 <h1 id="pushing-an-existing-project-to-github">Pushing an Existing Project to Github</h1>
 <h2 id="overview">Overview</h2>
-<p>This section demonstrate the steps involved in pushing an existing code into your Github repository.</p>
+<p>This section guides users through the process of pushing an existing local project to a GitHub repository for version control and collaboration.</p>
+<h2 id="steps">Steps</h2>
+<ol>
+<li>Open Your Project Folder<ul>
+<li><strong>Navigate</strong> to your existing project directory on your computer.</li>
+</ul>
+</li>
+<li>
+<p>Open a Terminal in the Project Directory</p>
+<ul>
+<li><strong>Right-click</strong> inside the folder and select Git Bash, or</li>
+<li><strong>Open</strong> Visual Studio Code and launch the terminal.</li>
+</ul>
+</li>
+<li>
+<p>Initialize a Git Repository</p>
+<ul>
+<li><strong>Run</strong> the following command to start tracking your project with Git:</li>
+</ul>
+<p><code>git init</code></p>
+</li>
+<li>
+<p>Check Repository Status (Optional)</p>
+<ul>
+<li><strong>Verify</strong> which files are untracked:</li>
+</ul>
+<p><code>git status</code></p>
+</li>
+<li>
+<p>Stage All Files</p>
+<ul>
+<li><strong>Add</strong> all project files to staging:</li>
+</ul>
+<p><code>git add .</code></p>
+</li>
+<li>
+<p>Commit the Files</p>
+<ul>
+<li><strong>Save</strong> the staged files with a message:</li>
+</ul>
+<p><code>git commit -m "Initial commit"</code></p>
+</li>
+<li>
+<p>Create a New Repository on GitHub</p>
+<ul>
+<li>Go to GitHub and <strong>create</strong> a new repository (do not initialize it with a README if you already have files locally).</li>
+</ul>
+</li>
+<li>
+<p>Copy the Repository URL</p>
+<ul>
+<li>From your GitHub repo page, <strong>copy</strong> the HTTPS URL (e.g., https://github.com/username/repo.git).</li>
+</ul>
+</li>
+<li>
+<p>Add the Remote Repository</p>
+<ul>
+<li><strong>Link</strong> your local project to GitHub:</li>
+</ul>
+<p><code>git remote add origin https://github.com/username/repo.git</code></p>
+</li>
+<li>
+<p>Verify Remote Connection (Optional)</p>
+<p><code>git remote -v</code></p>
+</li>
+<li>
+<p>Push to GitHub</p>
+<ul>
+<li><strong>Send</strong> your code to the remote repository:</li>
+</ul>
+<p><code>git push -u origin main</code></p>
+<p>(Use master instead of main if your branch uses that name.)</p>
+</li>
+<li>
+<p>Confirm Upload</p>
+<ul>
+<li><strong>Refresh</strong> your GitHub repository page to ensure all files have been uploaded successfully.</li>
+</ul>
+</li>
+</ol>
 
 
 
