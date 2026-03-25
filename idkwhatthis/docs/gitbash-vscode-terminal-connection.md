@@ -2,12 +2,26 @@
 
 ## Overview
 
-In this section, you will learn how to connect Git Bash to your VS Code terminal.
+In this section, you will learn how to configure and use Git Bash as the integrated terminal inside *Visual Studio Code*.
 
-This documentation uses Git Bash for demonstration. If you are already familiar with using other terminals in VS Code, you may skip this section.
+Using Git Bash in VS Code allows you to:
+
+* Use Linux-style commands (ls, cd, etc.)
+* Work consistently with Git workflows
+* Follow tutorials that use Bash commands
+
+If you are already comfortable using another terminal (e.g., PowerShell or Command Prompt), you may skip this section.
 
 ---
+## Prerequisites
 
+Before starting, ensure:
+
+- Git is installed on your computer
+👉 You can download it from: https://git-scm.com/
+- Visual Studio Code is installed
+
+---
 ## Steps
 
 ### 1 Open Visual Studio Code
