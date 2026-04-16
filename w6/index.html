@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="..">
+        <link rel="prev" href="../w5/">
       
       
-        <link rel="next" href="../new-github-repo/">
+        <link rel="next" href="../w9/">
       
       
         
@@ -23,14 +23,11 @@
     
     
       
-        <title>Gitbash terminal connection - GitHub User Guide</title>
+        <title>Week 6 - UX/UI Reports</title>
       
     
     
       <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
-      
-        
-        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -58,14 +55,7 @@
   </head>
   
   
-    
-    
-      
-    
-    
-    
-    
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="magenta" data-md-color-accent="magenta">
+    <body dir="ltr">
   
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
@@ -74,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#connecting-git-bash-to-vs-code-terminal" class="md-skip">
+        <a href="#week-6-report" class="md-skip">
           Skip to content
         </a>
       
@@ -90,7 +80,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="GitHub User Guide" class="md-header__button md-logo" aria-label="GitHub User Guide" data-md-component="logo">
+    <a href=".." title="UX/UI Reports" class="md-header__button md-logo" aria-label="UX/UI Reports" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -104,44 +94,18 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            GitHub User Guide
+            UX/UI Reports
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Gitbash terminal connection
+              Week 6
             
           </span>
         </div>
       </div>
     </div>
-    
-      
-        <form class="md-header__option" data-md-component="palette">
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="magenta" data-md-color-accent="magenta"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
-    
-      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
-      </label>
-    
-  
-    
-    
-    
-    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="magenta" data-md-color-accent="magenta"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
-    
-      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
-      </label>
-    
-  
-</form>
-      
     
     
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
@@ -212,17 +176,15 @@
 
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="GitHub User Guide" class="md-nav__button md-logo" aria-label="GitHub User Guide" data-md-component="logo">
+    <a href=".." title="UX/UI Reports" class="md-nav__button md-logo" aria-label="UX/UI Reports" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
-    GitHub User Guide
+    UX/UI Reports
   </label>
   
   <ul class="md-nav__list" data-md-scrollfix>
@@ -258,6 +220,141 @@
       
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../w1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Week 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../w2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Week 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../w3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Week 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../w4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Week 4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../w5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Week 5
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
     
   
   
@@ -277,7 +374,7 @@
   <span class="md-ellipsis">
     
   
-    Gitbash terminal connection
+    Week 6
   
 
     
@@ -295,7 +392,7 @@
   <span class="md-ellipsis">
     
   
-    Gitbash terminal connection
+    Week 6
   
 
     
@@ -321,57 +418,74 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#overview" class="md-nav__link">
+  <a href="#what-i-learned-and-did-in-acit-2811-uxui-last-week" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Overview
+        What I learned and did in ACIT 2811 UX/UI last week
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What I learned and did in ACIT 2811 UX/UI last week">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prototyping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prototyping
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#user-flows" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Prerequisites
+        User Flows
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#steps" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#user-flow-diagrams" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Steps
+        User Flow Diagrams
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#if-git-bash-is-not-listed" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#low-fidelity-mockups" class="md-nav__link">
     <span class="md-ellipsis">
       
-        If Git Bash is NOT Listed
+        Low-Fidelity Mockups
       
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#set-git-bash-as-default" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#what-we-got-out-of-class" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ⭐ Set Git Bash as Default
+        What we got out of class
       
     </span>
   </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -390,14 +504,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../new-github-repo/" class="md-nav__link">
+      <a href="../w9/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    New GitHub repository
+    Week 9
   
 
     
@@ -417,14 +531,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../pushing-existing-project/" class="md-nav__link">
+      <a href="../w10/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Pushing existing project
+    Week 10
   
 
     
@@ -444,14 +558,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../working-with-existing-code-on-github/" class="md-nav__link">
+      <a href="../w12/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Working with existing code on GitHub
+    Week 12
   
 
     
@@ -471,41 +585,14 @@
   
   
     <li class="md-nav__item">
-      <a href="../glossary/" class="md-nav__link">
+      <a href="../w14/" class="md-nav__link">
         
   
   
   <span class="md-ellipsis">
     
   
-    Glossary
-  
-
-    
-  </span>
-  
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../troubleshooting/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Troubleshooting
+    Week 14
   
 
     
@@ -525,6 +612,104 @@
               </div>
             
             
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-i-learned-and-did-in-acit-2811-uxui-last-week" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What I learned and did in ACIT 2811 UX/UI last week
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="What I learned and did in ACIT 2811 UX/UI last week">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prototyping" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Prototyping
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-flows" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Flows
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-flow-diagrams" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Flow Diagrams
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-fidelity-mockups" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Low-Fidelity Mockups
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-we-got-out-of-class" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What we got out of class
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           
             <div class="md-content" data-md-component="content">
@@ -535,89 +720,37 @@
 
 
 
-<h1 id="connecting-git-bash-to-vs-code-terminal">Connecting Git Bash to VS Code Terminal</h1>
-<h2 id="overview">Overview</h2>
-<p>In this section, you will learn how to configure and use Git Bash as the integrated terminal inside <em>Visual Studio Code</em>.</p>
-<p>Using Git Bash in VS Code allows you to:</p>
+<h1 id="week-6-report">Week 6 Report</h1>
+<h2 id="what-i-learned-and-did-in-acit-2811-uxui-last-week">What I learned and did in <strong>ACIT 2811 UX/UI</strong> last week</h2>
+<h3 id="prototyping">Prototyping</h3>
+<p>This week focused on understanding how to plan and visualize a design before building it.</p>
+<h3 id="user-flows">User Flows</h3>
+<p>User flows show the steps a user takes to complete a task in an app or website.</p>
 <ul>
-<li>Use Linux-style commands (ls, cd, etc.)</li>
-<li>Work consistently with Git workflows</li>
-<li>Follow tutorials that use Bash commands</li>
+<li>Focus on the user’s journey  </li>
+<li>Helps identify how users move between pages  </li>
+<li>Useful for improving usability  </li>
 </ul>
-<p>If you are already comfortable using another terminal (e.g., PowerShell or Command Prompt), you may skip this section.</p>
-<hr />
-<h2 id="prerequisites">Prerequisites</h2>
-<p>Before starting, ensure:</p>
+<h3 id="user-flow-diagrams">User Flow Diagrams</h3>
+<p>User flow diagrams are visual representations of how users navigate through a system.</p>
 <ul>
-<li>Git is installed on your computer
-👉 You can download it from: https://git-scm.com/</li>
-<li>Visual Studio Code is installed</li>
+<li>Use shapes and arrows to show steps  </li>
+<li>Show decisions and different paths  </li>
+<li>Help understand user behavior</li>
 </ul>
-<h2 id="steps">Steps</h2>
-<ol>
-<li>Open Visual Studio Code </li>
-<li>
-<p>Double click on <strong>Visual Studio Code</strong> to open it.</p>
-</li>
-<li>
-<p>Open the Menu </p>
-</li>
-<li>Click on the <strong>three dots</strong> at the top left.</li>
-</ol>
-<p><img alt="Three dots" src="../assets/images/threeDots.png" width="50%" /></p>
-<ol>
-<li>Open Terminal Menu </li>
-<li>Click on the <strong>Terminal</strong> option from the dropdown.</li>
-</ol>
-<p><img alt="Terminal dropdown" src="../assets/images/terminal.png" width="50%" /></p>
-<ol>
-<li>Create New Terminal </li>
-<li>Select <strong>New Terminal</strong>.</li>
-</ol>
-<p><img alt="New Terminal" src="../assets/images/newTerminal.png" width="50%" /></p>
-<ol>
-<li>Locate Terminal Panel </li>
-<li>
-<p>A terminal window should appear at the bottom of VS Code.</p>
-</li>
-<li>
-<p>Open Terminal Options </p>
-</li>
-<li>Click on the terminal menu.</li>
-</ol>
-<p><img alt="Terminal Window" src="../assets/images/terminalWindow.png" width="50%" /></p>
-<ol>
-<li>Open Dropdown Options </li>
-<li>Click the dropdown arrow next to the <strong>+</strong> icon.</li>
-</ol>
-<p><img alt="Dropdown arrow" src="../assets/images/downArrow.png" width="50%" /></p>
-<ol>
-<li>Select Git Bash </li>
-<li>Check if <strong>Git Bash</strong> is listed and select it.</li>
-</ol>
-<p><img alt="Terminal menu" src="../assets/images/terminalMenu.png" width="50%" /></p>
-<h2 id="if-git-bash-is-not-listed">If Git Bash is NOT Listed</h2>
-<p>9️. Open Command Palette 
-- Press <code>Ctrl + Shift + P</code></p>
-<h2 id="set-git-bash-as-default">⭐ Set Git Bash as Default</h2>
-<ol>
-<li>Select Default Profile</li>
-<li>Go to <strong>Select Default Profile</strong></li>
-<li>
-<p>Choose <strong>Git Bash</strong></p>
-</li>
-<li>
-<p>Open New Terminal </p>
-</li>
-<li>
-<p>Click <strong>New Terminal (+)</strong> again</p>
-</li>
-<li>
-<p>Done! </p>
-</li>
-<li>Git Bash should now run inside VS Code 🎉</li>
-</ol>
-<p>Next thing to do is <a href="https://ngrooney09-dotcom.github.io/idkwhattoname/new-github-repo/">Create new git</a></p>
+<h3 id="low-fidelity-mockups">Low-Fidelity Mockups</h3>
+<p>Low-fidelity mockups are basic visual representations of a design.</p>
+<ul>
+<li>Simple and quick to create  </li>
+<li>Usually black and white  </li>
+<li>Focus on structure and functionality  </li>
+<li>Not detailed or styled  </li>
+</ul>
+<h3 id="what-we-got-out-of-class">What we got out of class</h3>
+<ul>
+<li>Learned how to plan designs before starting development  </li>
+<li>Understood how users interact with an application step by step </li>
+</ul>
 
 
 
@@ -667,7 +800,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.expand", "navigation.sections", "toc.integrate", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
